@@ -4,15 +4,26 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Links from './components/Links';
 import Work from './components/Work';
+import AboutMe from './components/AboutMe';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 function App() {
 
   return (
-    <div>
-      <Hero/>
-      <Links/>
-      <Work/>
-    </div>
+    <Router basename="/marlea-portfolio">
+      <Routes>
+        <Route path="/" element={
+          <div>
+            <Hero/>
+            <Links/>
+            <Work/>
+          </div>
+          } 
+        />
+        <Route path="/about-me" element={<AboutMe />} />
+      </Routes>
+    </Router>
   )
 }
 
-export default App
+export default App;
