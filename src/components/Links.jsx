@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from "react-icons/fa";
 import { IoDocumentAttach } from "react-icons/io5";
-import background3 from '../assets/work-bg.png';
+import background3 from '../assets/links-waves.png';
 
 const Links = () => {
 

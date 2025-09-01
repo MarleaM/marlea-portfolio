@@ -1,12 +1,13 @@
 import React from "react";
 import background from '../assets/work-bg.png';
 import background1 from '../assets/work-bg-stars.png';
+import background2 from '../assets/work-bg-ombre.png';
 import { FaGithub } from 'react-icons/fa';
 import placeholder  from '../assets/pfp.jpg';
 
 const Work = () => {
     return (
-        <section className = "work_section" id = "work"   style={{backgroundImage: `url(${background})`}}>
+        <section className = "work_section" id = "work"   style={{backgroundImage: `url(${background2})`}}>
             <div className = "work"> 
                 <h1 className = "work_title">Work History</h1>
                 <div className = "work_content">

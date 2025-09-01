@@ -8,10 +8,10 @@ import { Link } from 'react-router-dom';
 
 const Hero = () => {
     return(
-        <section className = "hero" style = {{backgroundImage: `url(${background})`}}>
+        <section className = "hero" style = {{backgroundImage: `url(${background2})`}}>
             <div className = "hero_top_buttons">
                 <div className = "hero_top_left">
-                    <a className="hero_top_title" href="#">Marlea Martens</a>
+                    <Link className="hero_top_title" to="/">Marlea Martens</Link>
                 </div>
                 <div className="hero_top_right">
                     <a className="hero_top_link" href="#work">Work History</a>
