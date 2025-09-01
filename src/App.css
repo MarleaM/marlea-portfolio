@@ -9,27 +9,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* SHARES */
-
-.glass-effect{
-
-}
-
-/*
-COLOR PALLETTE: 
-
-#363937 - darkest
-#90A1B7 - medium
-#A6B8CC - medium - light
-#BFCEDE - light blue
-
-*/
-/* not sure what this is for tbh
-html, body {
-  height: 100%;
-  width: 100%;
-}*/
-
 /* KEYFRAMES */
 @keyframes fade-down {
   0% {
@@ -337,7 +316,7 @@ html, body {
 .work_box_text {
   padding-top: 10px;
   padding-bottom: 10px;
-  font-size: 28px; /* or whatever size you want */
+  font-size: 28px; 
 
 }
 
@@ -352,4 +331,244 @@ html, body {
 
 .work_content a{
   text-decoration: none;
+}
+
+/* ----------------- FOr other screen sizes ----------------- */
+/* ----------------- tablets ----------------- */
+
+@media (max-width: 768px) {
+  /* HERO SECTION */
+  .hero_content {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 120px;
+    gap: 20px;
+  }
+
+  .hero_left_content,
+  .hero_right_content {
+    width: 100%;
+    padding: 0 20px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero_right_content {
+    padding-right: 0;
+    align-items: center;
+  }
+
+  .hero_left_content img {
+    width: 60%;
+    height: auto;
+  }
+
+  .hero_content h1 {
+    font-size: 32px;
+  }
+
+  .hero_content p {
+    font-size: 18px;
+    padding: 0;
+  }
+
+  .hero_top_buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+  }
+
+  .hero_top_title {
+    font-size: 24px;
+  }
+
+  .hero_top_link,
+  .hero_top_aboutme {
+    font-size: 16px;
+    padding: 10px 16px;
+  }
+
+  /* LINKS SECTION */
+  .links_content {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .links_box {
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .icon {
+    font-size: 3em;
+  }
+
+  /* WORK SECTION */
+  .work_box {
+    flex-direction: column;
+    width: 90%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .work_box_image_section {
+    padding: 0;
+  }
+
+  .work_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .work_box_text_section {
+    align-items: center;
+    padding: 0;
+  }
+
+  .work_box_text {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .work_box_date {
+    font-size: 14px;
+  }
+
+  .work_title,
+  .links_title {
+    font-size: 30px;
+  }
+}
+/* ----------------- phones ----------------- */
+
+@media (max-width: 480px) {
+  /* === NAVBAR === */
+  .hero_top_buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .hero_top_left,
+  .hero_top_right {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .hero_top_title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .hero_top_link,
+  .hero_top_aboutme {
+    font-size: 16px;
+    padding: 8px 16px;
+  }
+
+  /* === HERO SECTION === */
+  .hero_content {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    gap: 20px;
+  }
+
+  .hero_left_content,
+  .hero_right_content {
+    width: 100%;
+    padding: 0 16px;
+    align-items: center;
+  }
+
+  .hero_right_content {
+    padding-right: 0;
+  }
+
+  .hero_left_content img {
+    width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .hero_content h1 {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .hero_content p {
+    font-size: 16px;
+    padding: 0;
+    letter-spacing: 1px;
+  }
+
+  .hero_content a {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  /* === LINKS SECTION === */
+  .links_content {
+    flex-direction: column;
+    padding: 16px;
+    gap: 20px;
+  }
+
+  .links_box {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .links_title {
+    font-size: 28px;
+  }
+
+  .icon {
+    font-size: 3em;
+  }
+
+  /* === WORK SECTION === */
+  .work_content {
+    padding: 20px;
+    gap: 30px;
+  }
+
+  .work_box {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .work_image {
+    width: 100%;
+    height: auto;
+  }
+
+  .work_box_text_section {
+    align-items: center;
+    padding-top: 10px;
+  }
+
+  .work_box_text {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .work_box_date {
+    font-size: 14px;
+  }
+
+  .work_box_p {
+    font-size: 14px;
+  }
+
+  .work_title {
+    font-size: 30px;
+  }
 }
