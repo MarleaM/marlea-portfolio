@@ -4,6 +4,12 @@ import background1 from '../assets/work-bg-stars.png';
 import background2 from '../assets/work-bg-ombre.png';
 import { FaGithub } from 'react-icons/fa';
 import placeholder  from '../assets/pfp.jpg';
+import nutanix  from '../assets/work_assets/nutanix_logo.png';
+import webstaurant from '../assets/work_assets/webstaurantstore-logo.png';
+import docurious from '../assets/work_assets/docurious_logo.jpeg';
+import ninja from '../assets/work_assets/ninjas_image.jpg';
+import research from '../assets/work_assets/research_image.jpg';
+import mertz from '../assets/work_assets/mertz_image.jpg';
 
 const Work = () => {
     return (
@@ -15,23 +21,24 @@ const Work = () => {
 
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={nutanix} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Software Engineering Intern</h1>
                             <h2 className = "work_box_company">Nutanix </h2>
                             <h3 className = "work_box_date">May 2025 - Aug 2025 </h3>
-                            <p className = "work_box_p">Provides assistance in Intro to Computer Systems, 
-                                concentrating 
-                                on C programming and parallel & distributed computing, as well as Intro to 
-                                Computer Science, focusing on Python and fundamental programming skills.</p>
+                            <p className = "work_box_p">
+                                Built and deployed BlockWatch, a full-stack (Go, React, MongoDB) tool for hardware procurement and
+management, streamlining asset tracking and decision-making for engineering VPs. BlockWatch enabled $400K in annual cost savings for Nutanix by uncovering resource inefficiencies and bulk purchasing
+opportunities through insights. Achieved 90% test coverage by writing integration tests across backend APIs, business logic, and DB layers. Additionally, won 1st place in company-wide hackathon for building PII-Patrol, a privacy middleware.
+                            </p>
                         </div>
                     </a>
 
                     
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={webstaurant} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Database Development Intern</h1>
@@ -48,7 +55,7 @@ const Work = () => {
 
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={docurious} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Software Development Intern</h1>
@@ -73,7 +80,7 @@ const Work = () => {
 
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={ninja} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Computer Science Teaching Assistant</h1>
@@ -82,14 +89,16 @@ const Work = () => {
                             <p className = "work_box_p">Provides assistance in Intro to Computer Systems, 
                                 concentrating 
                                 on C programming and parallel & distributed computing, as well as Intro to 
-                                Computer Science, focusing on Python and fundamental programming skills.</p>
+                                Computer Science, focusing on Python and fundamental programming skills.
+                            </p>
+                            <p className = "work_box_p">Courses: Intro to Computer Science, Data Structures and Algorithms, Intro to Computer Systems. </p>
                         </div>
                     </a>
 
                     
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={research} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Differential Privacy Research Assistant</h1>
@@ -103,14 +112,15 @@ const Work = () => {
 
                     <a href = "a" className = "work_box">
                         <div className = "work_box_image_section">
-                            <img src={placeholder} alt="Project preview" className="work_image" />
+                            <img src={mertz} alt="Project preview" className="work_image" />
                         </div>
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Resident Assistant</h1>
                             <h2 className = "work_box_company">Swarthmore College </h2>
                             <h3 className = "work_box_date">Aug 2024 - Present </h3>
                             <p className = "work_box_p">
-                                PLACEHOLDER
+                                Builds community and provides support for Mertz Hall; oversees a campus area of 300+ students.
+                                Coordinates events and community building activities.
                                 </p>
                         </div>
                     </a>

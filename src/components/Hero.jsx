@@ -32,6 +32,9 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
+            <div className = "hero_bottom_note">
+                <p> PS: This picture was taken in JiuFen 九份, Taiwan! </p>
+            </div>
         </section>
     )
 
