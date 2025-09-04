@@ -5,6 +5,8 @@ import pfp from '../assets/pfp.jpg';
 import pfp2 from '../assets/pfp-2.jpg';
 import background3 from '../assets/work-bg.png';
 import { Link } from 'react-router-dom';
+import { Typewriter } from "react-simple-typewriter";
+
 
 const Hero = () => {
     return(
@@ -15,8 +17,7 @@ const Hero = () => {
                 </div>
                 <div className="hero_top_right">
                     <a className="hero_top_link" href="#work">Work History</a>
-                    <a className="hero_top_link" href="#work">Extracurriculars</a>
-                    <a className="hero_top_link" href="#work">Projects</a>
+                    <Link className="hero_top_link" to="/project">Projects</Link>
                     <Link className="hero_top_aboutme" to="/about-me"> About Me  </Link>
                 </div>
             </div>
@@ -25,15 +26,26 @@ const Hero = () => {
                     <img src={pfp2} alt="Profile" />
                 </div>
                 <div className = "hero_right_content">
-                    <h1>Hello world, I am Marlea</h1>
-                    <p>Junior Computer Science major at Swarthmore College, interested in all things database development and software engineering.</p>
+                    <h1>
+                        <Typewriter
+                            words={["Hello world, I am Marlea"]}
+                            loop={0}
+                            cursor
+                            cursorStyle="|"
+                            typeSpeed={90}
+                            deleteSpeed={50}
+                            delaySpeed={1000}
+                        />
+                    </h1>
+                    <p>
+                        Senior Computer Science major at Swarthmore College, interested in all things database development and software engineering.</p>
                     <div className = "glass-effect"> 
                         <a href = "#links"> Discover More </a>     
                     </div>
                 </div>
             </div>
             <div className = "hero_bottom_note">
-                <p> PS: This picture was taken in JiuFen 九份, Taiwan! </p>
+                <p> PS: This picture was taken in JiuFen (九份), Taiwan! </p>
             </div>
         </section>
     )

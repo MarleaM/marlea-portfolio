@@ -1,6 +1,6 @@
 import React from "react";
 import background from '../assets/work-bg.png';
-import background1 from '../assets/work-bg-stars.png';
+import background1 from '../assets/project_assets/project-bg.png';
 import background2 from '../assets/work-bg-ombre.png';
 import { FaGithub } from 'react-icons/fa';
 import placeholder  from '../assets/pfp.jpg';
@@ -13,13 +13,13 @@ import mertz from '../assets/work_assets/mertz_image.jpg';
 
 const Work = () => {
     return (
-        <section className = "work_section" id = "work"   style={{backgroundImage: `url(${background2})`}}>
+        <section className = "work_section" id = "work"   style={{backgroundImage: `url(${background})`}}>
             <div className = "work"> 
                 <h1 className = "work_title">Work History</h1>
                 <div className = "work_content">
                     
 
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={nutanix} alt="Project preview" className="work_image" />
                         </div>
@@ -29,14 +29,14 @@ const Work = () => {
                             <h3 className = "work_box_date">May 2025 - Aug 2025 </h3>
                             <p className = "work_box_p">
                                 Built and deployed BlockWatch, a full-stack (Go, React, MongoDB) tool for hardware procurement and
-management, streamlining asset tracking and decision-making for engineering VPs. BlockWatch enabled $400K in annual cost savings for Nutanix by uncovering resource inefficiencies and bulk purchasing
-opportunities through insights. Achieved 90% test coverage by writing integration tests across backend APIs, business logic, and DB layers. Additionally, won 1st place in company-wide hackathon for building PII-Patrol, a privacy middleware.
+management, streamlining asset tracking and decision-making for engineering VPs. BlockWatch enables $400K in annual cost savings for Nutanix by uncovering resource inefficiencies and bulk purchasing
+opportunities. 
                             </p>
                         </div>
                     </a>
 
                     
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={webstaurant} alt="Project preview" className="work_image" />
                         </div>
@@ -53,7 +53,7 @@ opportunities through insights. Achieved 90% test coverage by writing integratio
                         </div>
                     </a>
 
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={docurious} alt="Project preview" className="work_image" />
                         </div>
@@ -78,7 +78,7 @@ opportunities through insights. Achieved 90% test coverage by writing integratio
                 <div className = "work_content">
                     
 
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={ninja} alt="Project preview" className="work_image" />
                         </div>
@@ -96,7 +96,7 @@ opportunities through insights. Achieved 90% test coverage by writing integratio
                     </a>
 
                     
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={research} alt="Project preview" className="work_image" />
                         </div>
@@ -110,7 +110,7 @@ opportunities through insights. Achieved 90% test coverage by writing integratio
                         </div>
                     </a>
 
-                    <a href = "a" className = "work_box">
+                    <a className = "work_box">
                         <div className = "work_box_image_section">
                             <img src={mertz} alt="Project preview" className="work_image" />
                         </div>

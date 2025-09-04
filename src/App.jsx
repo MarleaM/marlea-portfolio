@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import Links from './components/Links';
 import Work from './components/Work';
 import AboutMe from './components/AboutMe';
+import Projects from './components/Project';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           } 
         />
         <Route path="/about-me" element={<AboutMe />} />
+        <Route path="/project" element={<Projects />} />
       </Routes>
     </Router>
   )
