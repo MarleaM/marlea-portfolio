@@ -264,7 +264,7 @@ html {
 /****************  work section ****************/
 .work_section {
   background-size: cover;
-  background-position: center;
+  background-position: left;
   
 }
 
@@ -427,7 +427,7 @@ html {
 
 .project{
   background-size: cover;
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
 
   display: flex;

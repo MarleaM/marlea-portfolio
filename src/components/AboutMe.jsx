@@ -1,5 +1,5 @@
 
-import background from '../assets/about-me-waves.png';
+import background from '../assets/about_assets/background.png';
 import marleapicture from '../assets/about_assets/marlea_about.jpeg';
 import gomoji from '../assets/about_assets/golang.png';
 
@@ -58,7 +58,7 @@ function AboutMe() {
               </p>
 
               <p>
-                Lately, I’ve been super interested in cloud computing, virtual machines, and anything that makes dev tools more powerful and secure. I'm always curious to learn more and build things that are both useful and fun! 
+                Lately, I’ve been super interested in operating systems, virtual machines, and anything that makes dev tools more powerful and secure. I'm always curious to learn more and build things that are both useful and fun! 
                 Feel free to reach out to me at marleamartens1@gmail.com 😊 I love emails!
               </p>
 
