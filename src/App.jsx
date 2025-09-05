@@ -11,7 +11,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 function App() {
 
   return (
-    <Router basename={import.meta.env.BASE_URL}>
+    <Router basename={"/"}>
       <Routes>
         <Route path="/" element={
           <div>
