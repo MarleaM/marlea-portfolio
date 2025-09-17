@@ -38,15 +38,15 @@ function AboutMe() {
               />
             </h1>
               <p>
-                Hello! I'm Marlea, an emoji enthusiast 🥳 and senior at Swarthmore College studying CS. I’m really into building software and love anything that involves systems, cloud infrastructure, or just solving cool problems with code. Outside of tech, I’m a big fan of running (I ran Wharf to Wharf in Santa Cruz this summer!), music, and games.
+                Hello! I'm Marlea, a senior at Swarthmore College studying CS. I’m really into building software and love anything that involves systems, cloud infrastructure, or just solving cool problems with code. Outside of tech, I’m a big fan of running (I ran Wharf to Wharf in Santa Cruz this summer!), music, and games.
               </p>
 
               <p>
-                At Swarthmore, I’m part of the leadership teams for the Google Developer Student Club and Gender Minorities in Math and Stats. I love being part of communities where people feel supported and excited to learn 🤓
+                At Swarthmore, I’m part of the leadership team for Gender Minorities in Math and Stats, as well as a resident assistant for Mertz Hall. I love contributing to communities where people feel supported!
               </p>
 
               <p>
-                This past summer, I was in San Jose (CA was beautiful!) interning at Nutanix on the devolper productivity team, where I mostly worked in Golang
+                This past summer, I was in San Jose (CA was beautiful) interning at Nutanix on the devolper productivity team, where I mostly worked in Golang
                 
                   <img
                   src={gomoji}
@@ -58,7 +58,8 @@ function AboutMe() {
               </p>
 
               <p>
-                Lately, I’ve been super interested in operating systems, virtual machines, and anything that makes dev tools more powerful and secure. I'm always curious to learn more and build things that are both useful and fun! 
+                Lately, I’ve been super interested in operating systems, virtual machines, and anything that makes dev tools more powerful and secure.
+                 I'm always curious to learn more and build things that are both useful and fun! 
                 Feel free to reach out to me at marleamartens1@gmail.com 😊 I love emails!
               </p>
 

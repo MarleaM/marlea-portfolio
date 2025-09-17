@@ -7,22 +7,34 @@ import Work from './components/Work';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Project';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { motion } from 'framer-motion';
 
 function App() {
+
+const PageWrapper = ({ children }) => (
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    transition={{ duration: 0.7 }}
+  >
+    {children}
+  </motion.div>
+);
 
   return (
     <Router>
       <Routes>
         <Route path="/" element={
-          <div>
-            <Hero/>
-            <Links/>
-            <Work/>
-          </div>
+          <PageWrapper>
+              <Hero/>
+              <Links/>
+              <Work/>
+          </PageWrapper>
           } 
         />
-        <Route path="/about-me" element={<AboutMe />} />
-        <Route path="/project" element={<Projects />} />
+        <Route path="/about-me" element={  <PageWrapper> <AboutMe />   </PageWrapper>} />
+        <Route path="/project" element={  <PageWrapper> <Projects />   </PageWrapper>} />
       </Routes>
     </Router>
   )
