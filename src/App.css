@@ -48,7 +48,7 @@ html {
 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center hero_content vertically */
+  justify-content: center; 
   min-height: 100vh;
   position: relative;
 }
@@ -59,7 +59,7 @@ html {
   right: 0;
 
   display: flex;
-  justify-content: space-between; /* Left & right items */
+  justify-content: space-between; 
   align-items: center;
   padding: 16px 32px;
 
@@ -72,7 +72,7 @@ html {
 .hero_top_right {
   display: flex;
   align-items: center;
-  gap: 16px; /* space between links if needed */
+  gap: 16px; 
 }
 
 .hero_top_title {
@@ -119,8 +119,8 @@ html {
 .hero_left_content {
   width: 50%;
   display: flex;
-  justify-content: center; /*center vertically*/
-  align-items: center; /*center horiztionatly*/
+  justify-content: center; 
+  align-items: center; 
 }
 
 .hero_left_content img {
@@ -365,7 +365,7 @@ html {
 
   display: flex;
   flex-direction: column;
-  justify-content: center; /* center hero_content vertically */
+  justify-content: center; 
   min-height: 100vh;
   width: 100%;
   position: relative;
@@ -446,8 +446,8 @@ html {
   padding-top: 100px !important;
   animation: fade-down .75s;
   display: flex;
-  flex-direction: column;       /* stacking title + box */
-  align-items: center;          /* center horizontally */
+  flex-direction: column;       
+  align-items: center;         
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
@@ -494,7 +494,7 @@ html {
 .project_sticker {
   position: absolute;
   top: 10px;
-  left: 10px; /* or `left: 10px` for top-left */
+  left: 10px;
   background-color: rgb(232, 219, 143);
   color: black;
   font-weight: bold;
@@ -576,6 +576,8 @@ html {
     align-items: center;
     padding-top: 60px;
     gap: 20px;
+    background-size: contain;
+    background-position: top center;
   }
 
   .hero_left_content,
@@ -618,6 +620,8 @@ html {
   .links_content {
     flex-direction: column;
     padding: 20px;
+    background-size: contain;
+    background-position: top center;
   }
 
   .links_box {
@@ -669,6 +673,11 @@ html {
 /* ----------------- phones ----------------- */
 
 @media (max-width: 480px) {
+.about_content{
+    background-size: contain;
+    background-position: top center;
+}
+
   /* === NAVBAR === */
 
   .hero_top_link,
