@@ -570,14 +570,16 @@ html {
 /* ----------------- tablets ----------------- */
 
 @media (max-width: 995px) {
+  .hero{
+    background-size: cover;
+    background-position: top center;
+  }
   /* HERO SECTION */
   .hero_content {
     text-align: center;
     align-items: center;
     padding-top: 60px;
     gap: 20px;
-    background-size: contain;
-    background-position: top center;
   }
 
   .hero_left_content,
@@ -597,7 +599,6 @@ html {
     width: 100%;
     height: auto;
   }
-
 
   .hero_top_buttons {
     flex-direction: column;
@@ -620,8 +621,6 @@ html {
   .links_content {
     flex-direction: column;
     padding: 20px;
-    background-size: contain;
-    background-position: top center;
   }
 
   .links_box {
@@ -668,18 +667,22 @@ html {
     align-items: center;
     padding: 0;
   }
+  
+  /*about section*/
+  .about {
+    background-size: cover;
+    background-position: top center;
+  }
 
 }
 /* ----------------- phones ----------------- */
 
 @media (max-width: 480px) {
-.about_content{
-    background-size: contain;
-    background-position: top center;
-}
+  .about_content{
+      background-size: cover;
+  }
 
   /* === NAVBAR === */
-
   .hero_top_link,
   .hero_top_aboutme {
     padding: 8px 16px;
