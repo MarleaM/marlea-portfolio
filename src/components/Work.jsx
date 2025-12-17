@@ -85,13 +85,13 @@ opportunities.
                         <div className = "work_box_text_section">
                             <h1 className = "work_box_text">Computer Science Teaching Assistant</h1>
                             <h2 className = "work_box_company">Swarthmore College </h2>
-                            <h3 className = "work_box_date">Jan 2023 - Dec 2024 </h3>
+                            <h3 className = "work_box_date">Jan 2023 - Present </h3>
                             <p className = "work_box_p">Provides assistance in Intro to Computer Systems, 
                                 concentrating 
                                 on C programming and parallel & distributed computing, as well as Intro to 
                                 Computer Science, focusing on Python and fundamental programming skills.
                             </p>
-                            <p className = "work_box_p">Courses: Intro to Computer Science, Data Structures and Algorithms, Intro to Computer Systems. </p>
+                            <p className = "work_box_p">Courses: Intro to Computer Science (Python), Data Structures and Algorithms (C++), Intro to Computer Systems (C). </p>
                         </div>
                     </a>
 

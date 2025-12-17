@@ -38,15 +38,19 @@ function AboutMe() {
               />
             </h1>
               <p>
-                Hello! I'm Marlea, a senior at Swarthmore College studying CS. I’m really into building software and love anything that involves systems, cloud infrastructure, or just solving cool problems with code. Outside of tech, I’m a big fan of running (I ran Wharf to Wharf in Santa Cruz this summer!), music, and games.
+                Hello! I'm Marlea, a senior at Swarthmore College studying CS and Chinese. I have always loved building things and solving problems, 
+                so computer science/software engineering has become one of my greatest passions! 
+                Outside of tech, I’m a big fan of running (I ran Wharf to Wharf in Santa Cruz this summer!), playing the piano, and learning languages.
               </p>
 
               <p>
-                At Swarthmore, I’m part of the leadership team for Gender Minorities in Math and Stats, as well as a resident assistant for Mertz Hall. I love contributing to communities where people feel supported!
+                For the past three years, I have worked as a TA for the CS department, focusing on systems classes (one of my favorite
+                gigs I've had in my college career!). I've really found a passion in creating a community where students feel supported and don't feel
+                ashamed to ask "stupid" questions.
               </p>
 
               <p>
-                This past summer, I was in San Jose (CA was beautiful) interning at Nutanix on the devolper productivity team, where I mostly worked in Golang
+                This past summer, I was in San Jose interning at Nutanix on the devolper productivity team, where I mostly worked in Golang
                 
                   <img
                   src={gomoji}
@@ -58,8 +62,8 @@ function AboutMe() {
               </p>
 
               <p>
-                Lately, I’ve been super interested in operating systems, virtual machines, and anything that makes dev tools more powerful and secure.
-                 I'm always curious to learn more and build things that are both useful and fun! 
+                Lately, I’ve been super interested in operating systems, machine learning, and compilers!
+                I'm always curious to learn more and build things! 
                 Feel free to reach out to me at marleamartens1@gmail.com 😊 I love emails!
               </p>
 

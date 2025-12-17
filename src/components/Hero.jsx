@@ -28,7 +28,7 @@ const Hero = () => {
                 <div className = "hero_right_content">
                     <h1>
                         <Typewriter
-                            words={["Hello world, I am Marlea"]}
+                            words={["Hello world, I am Marlea", "歡迎！"]}
                             loop={0}
                             cursor
                             cursorStyle="|"

@@ -8,6 +8,7 @@ import pii from '../assets/project_assets/pii-patrol.jpg';
 import open from '../assets/project_assets/open.png';
 import otw from '../assets/project_assets/otw.png';
 import lingua from '../assets/project_assets/lingua-cafe.jpg';
+import skin from '../assets/project_assets/skin_lesions.jpg';
  
 import { Link } from 'react-router-dom';
 import { Typewriter } from "react-simple-typewriter";
@@ -56,6 +57,23 @@ function Projects() {
                 <p>
                     An RBAC enabled privacy middleware layer that sits between AI systems and underlying databases. It ensures secure data handling by detecting and filtering sensitive information before it reaches LLMS, protecting
                     personal information from unintended exposure to generative models. Demonstrated overall 85% accuracy in classification, with SSN PII formats achieving 100% rate of masking.
+                </p>
+            </div>
+        </a>
+
+        <a className = "project_box">
+            <div className = "project_box_image_section">
+                <img src={skin} alt="Project preview" className="project_image" />
+            </div>
+            <div className = "project_box_text_section">
+            <a href="https://github.com/MarleaM/DeepLearningForSkinLesions" target="_blank" rel="noopener noreferrer">
+                <h1>Deep Learning for Skin Lesions</h1>
+            </a>
+                <h3>Python</h3>
+                <p>
+                    Together with a couple of friends, we created a convolutional neural network trained to predict classifications of 
+                    skin lesions. We built upon a pre-trained EfficientNet-B5 model implemented in PyTorch, resulting in an 
+                    accuracy rate of 87.45%. The research paper will be out soon!
                 </p>
             </div>
         </a>
