@@ -69,12 +69,18 @@ function Projects() {
             <a href="https://github.com/MarleaM/DeepLearningForSkinLesions" target="_blank" rel="noopener noreferrer">
                 <h1>Deep Learning for Skin Lesions</h1>
             </a>
-                <h3>Python</h3>
+                <h3>Python, [PyTorch]</h3>
                 <p>
-                    Together with a couple of friends, we created a convolutional neural network trained to predict classifications of 
-                    skin lesions. We built upon a pre-trained EfficientNet-B5 model implemented in PyTorch, resulting in an 
-                    accuracy rate of 87.45%. The research paper will be out soon!
+                    A deep learning pipeline to classify dermatoscopic images from the HAM10000 dataset. 
+                    Implemented a data pipeline
+                    to efficiently store and process over 10,000 training images, and an EfficientNet-B5 
+                    CNN architecture using PyTorch, achieving a peak macro F1-score of 0.766 and an overall accuracy of 87.45%. Additionally, we conducted
+                    a comparative analysis against a baseline Logistic Regression model, demonstrating that the CNN provided a 42% increase in accuracy 
+                    for detecting cancers like melanoma.
                 </p>
+              <a href="https://drive.google.com/file/d/1JRNOe4htjx-Hl_NrYz_HGWBiztT73X2a/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                  <p>Research Paper</p>
+              </a>
             </div>
         </a>
 
