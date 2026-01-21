@@ -9,6 +9,7 @@ import open from '../assets/project_assets/open.png';
 import otw from '../assets/project_assets/otw.png';
 import lingua from '../assets/project_assets/lingua-cafe.jpg';
 import skin from '../assets/project_assets/skin_lesions.jpg';
+import welcome_blog from '../assets/project_assets/welcome.GIF'; 
  
 import { Link } from 'react-router-dom';
 import { Typewriter } from "react-simple-typewriter";
@@ -61,6 +62,26 @@ function Projects() {
             </div>
         </a>
 
+{/********************************************************************************************** */}
+        <a className = "project_box">
+            <div className = "project_box_image_section">
+                <img src={welcome_blog} alt="Project preview" className="project_image" />
+            </div>
+            <div className = "project_box_text_section">
+            <a href="https://github.com/MarleaM/personal-blog" target="_blank" rel="noopener noreferrer">
+                <h1>Personal Blog (Digital Garden) </h1>
+            </a>
+                <h3>React, Node.js, TypeScript, postgreSQL, Docker</h3>
+                <p>
+                    A blogging platform built to handle rich-media content. Implemented a type-safe blog API using Fastify 
+                    and Prisma ORM to manage blog schemas, and a data pipeline to
+                    process & upload high-resolution images to (external API) Cloudinary to avoid inserting BLOBs into the postgreSQL database.
+                     Additionally, 
+                    I containerized the entire stack using multi-stage Docker builds.
+                </p>
+            </div>
+        </a>
+{/********************************************************************************************** */}
         <a className = "project_box">
             <div className = "project_box_image_section">
                 <img src={skin} alt="Project preview" className="project_image" />
