@@ -77,7 +77,7 @@ function Projects() {
                     and Prisma ORM to manage blog schemas, and a data pipeline to
                     process & upload high-resolution images to (external API) Cloudinary to avoid inserting BLOBs into the postgreSQL database.
                      Additionally, 
-                    I containerized the entire stack using multi-stage Docker builds.
+                    I containerized the entire stack using Docker.
                 </p>
             </div>
         </a>

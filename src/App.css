@@ -444,7 +444,6 @@ html {
 
 .project_content {
   padding-top: 100px !important;
-  animation: fade-down .75s;
   display: flex;
   flex-direction: column;       
   align-items: center;         

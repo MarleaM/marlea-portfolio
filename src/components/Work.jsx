@@ -45,7 +45,7 @@ opportunities.
                             <h2 className = "work_box_company">Webstaurant Store</h2>
                             <h3 className = "work_box_date">May 2024 - Aug 2024 </h3>
                             <p className = "work_box_p">
-                                Member of the pioneering team tasked with migrating databases to PostgreSQL, 
+                                Member of the pioneering team tasked with switching to PostgreSQL, 
                                 a departure from the company's usual SQLServer environment. My 
                                 contributions included leveraging PostgreSQL to optimize data 
                                 management, planning database infrastructure, and addressing 
@@ -62,12 +62,10 @@ opportunities.
                             <h2 className = "work_box_company">DoCurious Inc </h2>
                             <h3 className = "work_box_date">June 2023 - Aug 2023 </h3>
                             <p className = "work_box_p">
-                                Helped develop the foundational ServerAPI solution for a budding startup. 
-                                Assisted with endpoint and service testing, as well as 
-                                system enhancement and troubleshooting. Additionally, developed a web app 
+                                Assisted with endpoint and service testing,  
+                                troubleshooting, and API documentation. Additionally, developed a web app 
                                 utilizing the ChatGPT API to create a 
-                                natural language summarization tool, which directly 
-                                integrated with the DoCurious database.
+                                video summarization tool.
                                 </p>
                         </div>
                     </a>
@@ -86,10 +84,9 @@ opportunities.
                             <h1 className = "work_box_text">Computer Science Teaching Assistant</h1>
                             <h2 className = "work_box_company">Swarthmore College </h2>
                             <h3 className = "work_box_date">Jan 2023 - Present </h3>
-                            <p className = "work_box_p">Provides assistance in Intro to Computer Systems, 
+                            <p className = "work_box_p">Provides assistance in computer science department classes, 
                                 concentrating 
-                                on C programming and parallel & distributed computing, as well as Intro to 
-                                Computer Science, focusing on Python and fundamental programming skills.
+                                on C programming.
                             </p>
                             <p className = "work_box_p">Courses: Intro to Computer Science (Python), Data Structures and Algorithms (C++), Intro to Computer Systems (C). </p>
                         </div>
